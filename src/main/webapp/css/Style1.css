@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+.custom-bg{
+background:#b39ddb;
+}
+.admin .card{
+border:2px solid black;
+}
+.admin .card:hover{
+background:#e2e2e2;
+}
+.list-group-item.active{
+background:#b39ddb;
+border-color:#b39ddb;
+}
+.discount-label{
+font-size:10px!important;
+font-style:10px!important;
+text-decoration:line-through;
+}
+.card-highlight:hover{
+background: #e2e2e2;
+}
+
+/*toast*/
+#toast {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1;
+}
+
+#toast.show {
+  display: block;
+  animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
